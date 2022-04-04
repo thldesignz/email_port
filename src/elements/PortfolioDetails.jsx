@@ -90,7 +90,7 @@ class PortfolioDetails extends Component{
                                                     </div>
                                                 </div>
                                                 <div className="portfolio-details-btn mt--30">
-                                                    <a className="btn-default btn-border" href="/portfolio">Launch Preview</a>
+                                                    <a className="btn-default btn-border" href={item.siteUrl}>Launch Preview</a>
                                                 </div>
                                             </div>
                                         </div>
